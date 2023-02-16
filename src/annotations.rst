@@ -3,7 +3,7 @@
 .. _appendixes.annotations:
 
 ***********
-Annotations
+어노테이션(Annotations)
 ***********
 
 An annotation is a special form of syntactic metadata that can be added to
@@ -17,9 +17,8 @@ information at runtime to access annotations in documentation blocks.
 
 .. admonition:: Note
 
-   A doc comment in PHP must start with ``/**`` and end with
-   ``*/``. Annotations in any other style of comment will be
-   ignored.
+   PHP의 doc 커멘트는 반드시 ``/**``로 시작해
+   ``*/``로 끝나야 합니다. 이와 같은 형식 외의 커멘트에 포함된 어노테이션은 무시됩니다.
 
 Prior to PHPUnit 10, annotations in special PHP comments, so-called "DocBlocks" or "doc-comments",
 were the only means of attaching metadata to code units. These annotations are documented in this
@@ -41,9 +40,7 @@ functionality will be implemented based on annotations.
 @author
 =======
 
-The ``@author`` annotation is an alias for the
-``@group`` annotation (see :ref:`appendixes.annotations.group`) and allows to filter tests based
-on their authors.
+``@author`` 어노테이션은 ``@group`` 어노테이션의 별칭입니다 (:ref:`appendixes.annotations.group` 살펴보기) 또한 저자(author)를 기반으로 필터링 하는 것이 가능합니다.
 
 .. _appendixes.annotations.after:
 
